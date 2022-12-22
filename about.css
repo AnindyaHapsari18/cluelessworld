@@ -1,0 +1,154 @@
+.opening {
+  text-align: center;
+  padding-left: 200px;
+  color: #8B0000;
+  text-shadow: 0 0 3px #CD5C5C, 0 0 5px #CD5C5C;
+  font-size: 50px;
+}
+
+body {
+	background-color: rgb(255, 240, 245);
+}
+
+.cherface{
+  background-color: #FFC0CB;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 100px;
+  position: sticky;
+  margin: 0px;
+  padding: 0px;
+}
+
+.cherimg {
+  text-align: center;
+  color: #DC143C;
+}
+.cherface img {
+  cursor: pointer;
+  transition: 400ms;
+}
+
+  .cherface img:hover {
+    filter: grayscale(1);
+    transform: scale(1.03);
+  }
+
+.fullname {
+  background-color: rgb(219, 112, 147);
+  background-size: 100%;
+  color: rgb(255,250,240);
+  text-align: center;
+  position: sticky;
+  font-size: 60px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.cherfashion {
+  text-align: center;
+}
+.interest {
+  text-align: center;
+  color: rgb(255,250,240);
+  background-color: rgb(219, 112, 147);
+  font-size: 30px;
+}
+
+.talentpict {
+  text-align: center;
+}
+
+.talent {
+  text-align: center;
+  color: rgb(255,250,240);
+  font-size: 30px;
+  background-color: rgb(219,112,147);
+}
+
+.hobby {
+  text-align: center;
+  color: rgb(255,250,240);
+  font-size: 30px;
+  background-color: rgb(219,112,147);
+  margin: 0px;
+  padding: 0px;
+}
+
+.idol {
+  display: flex;
+  font-size: 30px;
+  color: #DC143C;
+  text-align: center;
+  padding-left: 100px;
+}
+
+
+.idolabout {
+  display: row;
+  font-size: 25px;
+}
+
+.livemotto {
+  text-align: center;
+  color: #DC143C;
+  font-size: 25px;
+  text-align: justify;
+}
+.sidenav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: #FFE4E1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidenav li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+ 
+.sidenav li a.active {
+  background-color: #DB7093;
+  color: white;
+}
+
+.sidenav li a:hover:not(.active) {
+  background-color: #BC8F8F;
+  color: white;
+}
+
+div.content {
+  margin-left: 25%;
+  padding: 1px 16px;
+  height: 90px;
+}
+
+@media screen and (max-width: 900px) {
+  ul.sidenav {
+    width: 90%;
+    height: auto;
+    position: relative;
+  }
+  
+  ul.sidenav li a {
+    float: left;
+    padding: 15px;
+  }
+  
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 300px) {
+  ul.sidenav li a {
+    text-align: center;
+    float: none;
+  }
